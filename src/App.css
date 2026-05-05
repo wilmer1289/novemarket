@@ -1,0 +1,16 @@
+.app {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.app-main {
+  width: min(1180px, 92%);
+  margin: 0 auto;
+}
+
+@media (max-width: 620px) {
+  .app-main {
+    width: min(94%, 1180px);
+  }
+}
