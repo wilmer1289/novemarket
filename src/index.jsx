@@ -1,5 +1,5 @@
 import { render } from "solid-js/web";
-import App from "./App";
+import App from "./App.jsx";
 import { CartProvider } from "./context/CartContext";
 import { FavoritesProvider } from "./context/FavoritesContext";
 import { AuthProvider } from "./context/AuthContext";
